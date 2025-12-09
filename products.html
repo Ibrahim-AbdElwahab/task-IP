@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Shop – Products</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">SimpleShop</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="products.html">Products</a></li>
+            <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="products">
+
+        <div class="product-card">
+            <img src="images/p1.jpg" alt="">
+            <h3>Product 1</h3>
+            <p class="price">$14.99</p>
+            <button class="btn add-to-cart"
+                data-id="1"
+                data-name="Product 1"
+                data-price="14.99"
+                data-img="images/p1.jpg">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/p2.jpg" alt="">
+            <h3>Product 2</h3>
+            <p class="price">$19.99</p>
+            <button class="btn add-to-cart"
+                data-id="2"
+                data-name="Product 2"
+                data-price="19.99"
+                data-img="images/p2.jpg">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/p3.jpg" alt="">
+            <h3>Product 3</h3>
+            <p class="price">$9.99</p>
+            <button class="btn add-to-cart"
+                data-id="3"
+                data-name="Product 3"
+                data-price="9.99"
+                data-img="images/p3.jpg">Add to Cart</button>
+        </div>
+
+    </section>
+
+</body>
+</html>
