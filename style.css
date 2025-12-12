@@ -9,7 +9,6 @@ body {
     background: #f7f7f7;
 }
 
-/* NAVBAR */
 .navbar {
     background: #111;
     padding: 15px 40px;
@@ -38,7 +37,6 @@ body {
     color: #111;
 }
 
-/* HERO */
 .hero {
     height: 350px;
     background: linear-gradient(#0007,#0007), url('images/hero.jpg') center/cover;
@@ -57,7 +55,6 @@ body {
     margin-top: 10px;
 }
 
-/* PRODUCTS */
 .products {
     padding: 50px;
     display: grid;
@@ -77,7 +74,6 @@ body {
     border-radius: 6px;
 }
 
-/* DETAILS */
 .details {
     display: flex;
     gap: 40px;
@@ -94,7 +90,6 @@ body {
     margin: 15px 0;
 }
 
-/* CART */
 .cart-page {
     padding: 40px;
 }
@@ -118,7 +113,6 @@ body {
     font-weight: bold;
 }
 
-/* CONTACT */
 .contact {
     padding: 40px;
     text-align: center;

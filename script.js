@@ -61,7 +61,6 @@ function removeItem(i) {
     displayCart();
 }
 
-// صفحة التفاصيل
 const productDetailsContainer = document.getElementById("product-details");
 
 if (productDetailsContainer) {
